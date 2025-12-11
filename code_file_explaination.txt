@@ -1,0 +1,46 @@
+Ultimately found a way out for detecting the scanned pages , since we only nned to focus on the central text 
+we can crop the top ( header part including the logo and annexure part ) and the bottom ( footer part ) of the page 
+and then check if there are any words in the central part of the page. If not then we consider it as a scanned page .
+
+each and every function is breaking down the pipeline into smaller modules for ease of utilisation ( can also further divide this code
+into /utils directory for better segmented code directory .)
+
+1) func(detect_scanned_pages) : simply marks if a page is scanned or not ( is it a text-based page or an image based-page)
+
+problem faced with the image based page is that , OCR using tesseract is difficult if the image contains tabular data . Since it wont 
+maintian the structural integrity of the table ( we then cant provide it to LLM .)
+
+Since , i am using tesseractOCR for the ocr part and pdfPlumber , a library in python that specifically deals with tables , and can be customized 
+on the basis of the complexities of the structure , ( but again it can only be used on pdf where the text is extractable .)
+Hence i used the excel way out .
+
+
+2) func(run_ocr_on_pages) : uses CLI commands to run these things
+
+--force-ocr: Forces OCR even if a page already has text.
+
+--pages 3,5,9: Only apply OCR on selected pages.
+
+--deskew: Tries to straighten tilted images.
+
+--output-type pdf: Ensures the output is a PDF.
+
+pdf_path: Source PDF file.
+
+output_path: Destination for the new searchable PDF.
+
+3) func(extract_tables) : uses pdfPlumber to extract the tablular structures efficiently in a json and csv format 
+
+4) func(detect_tables_in_image) : OpenCV is used to make bounding boxes around the tables ( efficiently ) after a hell lot of trial and error .
+
+https://github.com/datalab-to/marker?tab=readme-ov-file#llm-services
+
+
+
+api key = "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"
+
+
+
+
+first we put up the pdf , then we run the ocr text ( marker-single ) on it ; save the .md file into output_frontend/HRA_RULES , then we pass into pdfPlumber for extracting the tables 
+inside the pdf inside the (output_frontend/pdfplumber_tables) , including the structure of the tab;es using ( replace_tables_in_ocr_text.py ) save it into the output_frontend . Then the model inside the colab file should be using the output of replace_tables_in_ocr_text.py and the json data files present in the pdfplumber_tables folder for the ll chatbot , and also tell me where in to use the api key 

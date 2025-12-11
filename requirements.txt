@@ -1,0 +1,43 @@
+# === CORE PDF PARSING ===
+pymupdf==1.23.7
+pdfplumber==0.10.3
+pdf2image==1.17.0
+python-docx==1.1.0
+
+# === OCR & IMAGE PROCESSING ===
+pytesseract==0.3.10
+ocrmypdf==14.1.0
+Pillow==10.3.0
+opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
+scikit-image==0.22.0
+
+# === TABLE DETECTION ===
+img2table==1.1.7
+camelot-py[cv]==0.10.1  # or 0.11.0, depending on what’s already working
+layoutparser==0.3.4
+
+# === DEEPDOCTECTION (only for scanned pages) ===
+deepdoctection[pdf]==1.0.0
+paddleocr==2.6.0  # Required by deepdoctection for OCR
+
+# Torch (required for deepdoctection and layoutparser's Detectron2)
+torch==2.2.1
+torchvision==0.17.1
+
+# === NLP / LLM INTERFACING ===
+openai==1.30.1
+langchain==0.1.20
+sentence-transformers==2.6.1
+tiktoken==0.7.0
+nltk==3.8.1
+regex==2024.5.15
+
+# === VECTOR DB ===
+faiss-cpu==1.7.4
+
+# === UTILITIES ===
+tqdm==4.66.4
+rich==13.7.1
+PyYAML==6.0.1
+shutilwhich==1.1.0
