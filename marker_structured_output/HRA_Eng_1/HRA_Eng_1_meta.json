@@ -1,0 +1,277 @@
+{
+  "table_of_contents": [
+    {
+      "title": "No. 2/5/2017-E.II(B)\nGovernment of India\nMinistry of Finance\nDepartment of Expenditure",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          269.88679245283015,
+          21.737076648841352
+        ],
+        [
+          386.08805031446536,
+          21.737076648841352
+        ],
+        [
+          386.08805031446536,
+          77.26442652195692
+        ],
+        [
+          269.88679245283015,
+          77.26442652195692
+        ]
+      ]
+    },
+    {
+      "title": "OFFICE MEMORANDUM",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          275.13459119496855,
+          110.18449197860961
+        ],
+        [
+          382.2693078517914,
+          110.18449197860961
+        ],
+        [
+          382.2693078517914,
+          120.9580485522747
+        ],
+        [
+          275.13459119496855,
+          120.9580485522747
+        ]
+      ]
+    },
+    {
+      "title": "Subject:-\nImplementation of recommendations of the Seventh Central Pay Commission relating to grant of\nHouse Rent Allowance (HRA) to Central Government employees.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          88.462893081761,
+          135.6693404634581
+        ],
+        [
+          565.9929568767548,
+          135.6693404634581
+        ],
+        [
+          565.9929568767548,
+          160.0169753432274
+        ],
+        [
+          88.462893081761,
+          160.0169753432274
+        ]
+      ]
+    },
+    {
+      "title": "ANNEXURE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          495.5115799903869,
+          24.735294117647058
+        ],
+        [
+          565.2628930817609,
+          24.735294117647058
+        ],
+        [
+          565.2628930817609,
+          37.4777183600713
+        ],
+        [
+          495.5115799903869,
+          38.895514253526926
+        ]
+      ]
+    },
+    {
+      "title": "To O.M. No.2/5/2017-E.II(B) dated 07.07.2017.",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          311.86918238993707,
+          41.97504456327985
+        ],
+        [
+          564.5875773429871,
+          45.722816399286984
+        ],
+        [
+          564.5875773429871,
+          62.21301247771836
+        ],
+        [
+          311.1194968553459,
+          59.90691904723644
+        ]
+      ]
+    },
+    {
+      "title": "LIST OF CITIES/TOWNS CLASSIFIED FOR GRANT OF<br>HOUSE RENT ALLOWANCE TO CENTRAL GOVERNMENT EMPLOYEES",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          126.69685534591194,
+          59.96434937611408
+        ],
+        [
+          535.0222086906433,
+          65.21122994652406
+        ],
+        [
+          535.0222086906433,
+          98.94117647058823
+        ],
+        [
+          126.69685534591194,
+          95.23402217775583
+        ]
+      ]
+    },
+    {
+      "title": "NOTE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          83.96477987421383,
+          666.3538324420678
+        ],
+        [
+          122.19874213836476,
+          666.3538324420678
+        ],
+        [
+          122.19874213836476,
+          680.5953654188947
+        ],
+        [
+          83.96477987421383,
+          680.8533949255943
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Handwriting",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          172
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          80
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\HRA_Eng_1"
+}

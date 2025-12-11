@@ -1,0 +1,65 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Monthly Grocery Bill",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          216.6699350967215,
+          30.73685716882096
+        ],
+        [
+          378.61009420015347,
+          30.73685716882096
+        ],
+        [
+          378.61009420015347,
+          53.2272404630802
+        ],
+        [
+          216.6699350967215,
+          53.2272404630802
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\1751981075991-Monthly_Grocery_Bill_India"
+}
