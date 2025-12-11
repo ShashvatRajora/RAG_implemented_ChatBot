@@ -35,12 +35,6 @@ output_path: Destination for the new searchable PDF.
 
 https://github.com/datalab-to/marker?tab=readme-ov-file#llm-services
 
-
-
-api key = "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"
-
-
-
-
 first we put up the pdf , then we run the ocr text ( marker-single ) on it ; save the .md file into output_frontend/HRA_RULES , then we pass into pdfPlumber for extracting the tables 
+
 inside the pdf inside the (output_frontend/pdfplumber_tables) , including the structure of the tab;es using ( replace_tables_in_ocr_text.py ) save it into the output_frontend . Then the model inside the colab file should be using the output of replace_tables_in_ocr_text.py and the json data files present in the pdfplumber_tables folder for the ll chatbot , and also tell me where in to use the api key 
