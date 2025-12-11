@@ -168,10 +168,6 @@ MyRAG/
 
 ---
 
-## 📘 License  
-MIT License  
-
----
 
 ## 👨‍💻 Author  
 **Shashvat Rajora**  
